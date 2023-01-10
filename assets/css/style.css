@@ -43,3 +43,14 @@ footer {
     font-size: 1.5rem;
     font-style: italic;
 }
+
+@media (max-width:480px) {
+    section {
+        width: 320px;
+    }
+
+    img {
+        width: 280px;
+        height: 250px;      
+    }
+}
